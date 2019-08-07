@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+div {
+    display: inline-block;
+}
+
+.viewport {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem 0.5rem;
+    color: #5F6368;
+    font-size: 0.7rem;
+}
+
+.header a {
+    padding-left: 0.5rem;
+}
+
+.outer-user {
+    border: solid;
+    border-radius: 20px;
+    border-width: 1.5px;
+    border-top-color: red;
+    border-right-color: blue;
+    border-bottom-color: green;
+    border-left-color: orange;
+}
+
+.inner-user {
+    padding: 0.2rem 0.5rem;
+    background-color: purple;
+    text-align: center;
+    color: white;
+    border: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 50%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 30%;
+    height: 30%;
+    margin-top: 7rem;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.search-bar {
+    width: 50%;
+    display:flex;
+    margin: 1rem 0;
+    min-height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.magnifying-glass {
+    border: solid;
+    border-right: none;
+    border-width: 1px;
+    border-color: rgb(216, 217, 222);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 10px;
+    min-height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(170, 170, 170);
+    font-size: 0.8rem;
+}
+
+.middle-div {
+    width: 80%;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(216, 217, 222);
+    min-height: 30px;
+}
+
+.microphone {
+    border: solid;
+    border-left: none;
+    border-width: 1px;
+    border-color: rgb(216, 217, 222);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-right: 10px;
+    min-height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: blue;
+    font-size: 0.8rem;
+}
+
+.buttons button {
+    background-color: rgb(239, 239, 239);
+    cursor: pointer;
+    border: none;
+    padding: 7px 16px;
+    border-radius: 6%; 
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+    color: #5F6368;
+}
+
+.buttons button:hover {
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(200, 200, 200);
+}
+
+.footer {
+    position: fixed;
+    border-top: solid;
+    border-width: 1px;
+    border-color: rgb(221, 221, 221);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(239, 239, 239);	
+    padding: 0.7rem 0.8rem;
+    font-size: 10px;
+    color: #5F6368;
+}
+
+.footer a {
+    padding-left: 1rem;
+}
